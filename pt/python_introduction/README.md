@@ -283,10 +283,10 @@ O que acontece se pedirmos ao Python o valor de uma chave que não existe? Você
     >>> participante['idade']
     Traceback (most recent call last):
       File "<stdin>", line 1, in <module>
-    KeyError: 'age'
+    KeyError: 'idade'
     
 
-Olha, outro erro! Esse é um **KeyError**. Python é bastante prestativo e te diz que a chave `'idade'` não existe no nesse dicionário.
+Olha, outro erro! Esse é um **KeyError**. Python é bastante prestativo e te diz que a chave `'idade'` não existe nesse dicionário.
 
 Quando usar um dicionario ou uma lista? Bem, um bom ponto para refletir. Pense em uma solução antes de olhar a resposta na próxima linha.
 
@@ -391,7 +391,7 @@ Já ouviu a expressão "comparar maçãs com laranjas"? Vamos tentar o equivalen
     TypeError: unorderable types: int() > str()
     
 
-Aqui vemos que assim como na expressão, Python não é capaz de comparar um número (`int`) e uma string (`str</0)>.
+Aqui vemos que assim como na expressão, Python não é capaz de comparar um número (`int`) e uma string (`str`).
 Em vez disso, ele mostrou um <strong>TypeError</strong> e nos disse que os dois tipos não podem ser comparados juntos.</p>
 
 <h2>Booleano</h2>
